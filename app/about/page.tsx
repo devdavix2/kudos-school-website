@@ -258,4 +258,25 @@ export default function AboutPage() {
       <section className="py-16 md:py-24">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space\
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Join the Kudos Family?
+              </h2>
+              <p className="max-w-xl text-gray-500 md:text-lg">
+                Contact us today to learn more about admissions, programs, and how we can support your child's educational journey.
+              </p>
+              <div className="mt-6">
+                <a
+                  href="/contact"
+                  className="inline-block rounded-lg bg-primary px-6 py-3 text-white font-semibold hover:bg-primary/90 transition"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
